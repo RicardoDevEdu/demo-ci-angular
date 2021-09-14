@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "demo-ci-app"
+    }
+  },
+  "defaultProject": "demo-ci-app",
+  "cli": {
+    "analytics": false
+  }
 }
