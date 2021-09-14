@@ -36,5 +36,5 @@ describe('AppComponent', () => {
     expect(exponents.textContent).toContain('2021-II');
   });
 
-  
+
 });

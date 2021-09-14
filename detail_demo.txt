@@ -7,4 +7,4 @@ npm i puppeteer --dev
 Archivos modificados
 
 - karma.conf.js
-- angular.json
+- angular.json en la key test
