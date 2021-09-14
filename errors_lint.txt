@@ -1,0 +1,7 @@
+  title = 'demo-ci-app';  // error con comillas dobles
+
+
+  demo() {
+    console.log("esto es un log salvaje");  // error sin punto y coma
+    let data = [];  //error con estacio en blanco al final de la linea y de variable no usada
+  }

@@ -20,16 +20,21 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'demo-ci-app'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('demo-ci-app');
-  });
-
-  it('should render title', () => {
+  it(`should have as exponents`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('demo-ci-app app is running!');
+    const exponents = compiled.querySelector('.exponents');
+    expect(exponents.textContent).toContain('Deysi Rivera y Jose Ricardo');
   });
+
+  it(`it should be this semester`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement;
+    const exponents = compiled.querySelector('.exponents');
+    expect(exponents.textContent).toContain('2021-II');
+  });
+
+  
 });

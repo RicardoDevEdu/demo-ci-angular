@@ -34,8 +34,9 @@ jobs:
       - name: Lint
         run: |
           npm run lint
+        #ng lint --fix
 
-      #- name: Test
-      #  run: |
-      #    npm run test --prod
-  
+      - name: Test
+        run: |   
+          npm run test -- --configuration=ci
+         #npm run test --prod

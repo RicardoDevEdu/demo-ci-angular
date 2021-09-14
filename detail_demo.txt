@@ -1,0 +1,10 @@
+Librerias adicionales
+
+# se intala para usar un navegador por consola para poder ejecutar los test en github actions
+npm i puppeteer --dev  
+
+
+Archivos modificados
+
+- karma.conf.js
+- angular.json
